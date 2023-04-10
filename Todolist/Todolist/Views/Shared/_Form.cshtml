@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "_Form";
+}
+
+<h1>Form</h1>
+<form asp-action="Create" method="post">
+    <h3>To do list</h3>
+    <div>
+        <b>Enter your task: </b>
+        <input type="text" placeholder="Input your task..."></input>
+        <input type="datetime-local"></input>
+        <select>
+            <option>fruit</option>
+            <option>vegetables</option>
+            <option>meat</option>
+        </select>
+        <input type="submit" value="add"/>
+    </div>
+</form>
+
